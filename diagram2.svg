@@ -1,0 +1,217 @@
+<svg width="776" height="644" viewBox="0 0 582 483" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(39.18555578767376,440.56297483085086) scale(0.3836417975477884)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-976.15 227,-976.15 227,4 -4,4"/>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<ellipse fill="none" stroke="black" cx="147.24" cy="-942.88" rx="29.28" ry="29.28"/>
+<text text-anchor="middle" x="147.24" y="-938.68" font-family="Times,serif" font-size="14.00">Start</text>
+</g>
+<!-- Sleeping -->
+<g id="node2" class="node">
+<title>Sleeping</title>
+<polygon fill="none" stroke="black" points="179.74,-860.8 114.74,-860.8 114.74,-824.8 179.74,-824.8 179.74,-860.8"/>
+<text text-anchor="middle" x="147.24" y="-838.6" font-family="Times,serif" font-size="14.00">Sleeping</text>
+</g>
+<!-- Start&#45;&gt;Sleeping -->
+<g id="edge1" class="edge">
+<title>Start-&gt;Sleeping</title>
+<path fill="none" stroke="black" d="M147.24,-913.24C147.24,-900.48 147.24,-885.46 147.24,-872.67"/>
+<polygon fill="black" stroke="black" points="150.74,-872.74 147.24,-862.74 143.74,-872.74 150.74,-872.74"/>
+<text text-anchor="middle" x="179.7" y="-883" font-family="Times,serif" font-size="14.00">Initial State</text>
+</g>
+<!-- Eating -->
+<g id="node3" class="node">
+<title>Eating</title>
+<polygon fill="none" stroke="black" points="142.24,-787.8 88.24,-787.8 88.24,-751.8 142.24,-751.8 142.24,-787.8"/>
+<text text-anchor="middle" x="115.24" y="-765.6" font-family="Times,serif" font-size="14.00">Eating</text>
+</g>
+<!-- Sleeping&#45;&gt;Eating -->
+<g id="edge2" class="edge">
+<title>Sleeping-&gt;Eating</title>
+<path fill="none" stroke="black" d="M139.49,-824.61C135.92,-816.68 131.58,-807.06 127.57,-798.16"/>
+<polygon fill="black" stroke="black" points="130.84,-796.89 123.54,-789.21 124.45,-799.76 130.84,-796.89"/>
+</g>
+<!-- Going -->
+<g id="node4" class="node">
+<title>Going</title>
+<polygon fill="none" stroke="black" points="204.24,-699 150.24,-699 150.24,-663 204.24,-663 204.24,-699"/>
+<text text-anchor="middle" x="177.24" y="-676.8" font-family="Times,serif" font-size="14.00">Going</text>
+</g>
+<!-- Sleeping&#45;&gt;Going -->
+<g id="edge3" class="edge">
+<title>Sleeping-&gt;Going</title>
+<path fill="none" stroke="black" d="M150.51,-824.39C155.65,-797.02 165.67,-743.62 171.88,-710.56"/>
+<polygon fill="black" stroke="black" points="175.29,-711.35 173.7,-700.87 168.41,-710.05 175.29,-711.35"/>
+<text text-anchor="middle" x="189.11" y="-765.6" font-family="Times,serif" font-size="14.00">weekday</text>
+</g>
+<!-- Eating&#45;&gt;Going -->
+<g id="edge4" class="edge">
+<title>Eating-&gt;Going</title>
+<path fill="none" stroke="black" d="M111.62,-751.78C110.28,-741.07 110.33,-727.36 116.49,-717 119.53,-711.87 129.15,-705.54 139.86,-699.68"/>
+<polygon fill="black" stroke="black" points="141.25,-702.9 148.5,-695.18 138.02,-696.69 141.25,-702.9"/>
+<text text-anchor="middle" x="142.11" y="-721.2" font-family="Times,serif" font-size="14.00">weekday</text>
+</g>
+<!-- Studying -->
+<g id="node5" class="node">
+<title>Studying</title>
+<polygon fill="none" stroke="black" points="131.52,-610.2 64.96,-610.2 64.96,-574.2 131.52,-574.2 131.52,-610.2"/>
+<text text-anchor="middle" x="98.24" y="-588" font-family="Times,serif" font-size="14.00">Studying</text>
+</g>
+<!-- Going&#45;&gt;Studying -->
+<g id="edge6" class="edge">
+<title>Going-&gt;Studying</title>
+<path fill="none" stroke="black" d="M161.63,-662.85C150.24,-650.33 134.59,-633.14 121.7,-618.97"/>
+<polygon fill="black" stroke="black" points="124.42,-616.77 115.1,-611.73 119.25,-621.48 124.42,-616.77"/>
+<text text-anchor="middle" x="160.02" y="-632.4" font-family="Times,serif" font-size="14.00">8AM</text>
+</g><g id="edge5" class="edge">
+<title>Eating-&gt;Studying</title>
+<path fill="none" stroke="black" d="M107.54,-751.43C101.83,-737.55 94.54,-717.44 91.49,-699 87.2,-673.07 89.79,-643.16 92.93,-621.77"/>
+<polygon fill="black" stroke="black" points="96.36,-622.47 94.49,-612.04 89.45,-621.36 96.36,-622.47"/>
+<text text-anchor="middle" x="117.11" y="-676.8" font-family="Times,serif" font-size="14.00">weekend</text>
+</g>
+<!-- Eating2 -->
+<g id="node7" class="node">
+<title>Eating2</title>
+<polygon fill="none" stroke="black" points="125.24,-521.4 71.24,-521.4 71.24,-485.4 125.24,-485.4 125.24,-521.4"/>
+<text text-anchor="middle" x="98.24" y="-499.2" font-family="Times,serif" font-size="14.00">Eating</text>
+</g>
+<!-- Studying&#45;&gt;Eating2 -->
+<g id="edge7" class="edge">
+<title>Studying-&gt;Eating2</title>
+<path fill="none" stroke="black" d="M98.24,-574.05C98.24,-562.36 98.24,-546.59 98.24,-533.02"/>
+<polygon fill="black" stroke="black" points="101.74,-533.32 98.24,-523.32 94.74,-533.32 101.74,-533.32"/>
+<text text-anchor="middle" x="117.11" y="-543.6" font-family="Times,serif" font-size="14.00">13 PM</text>
+</g>
+<!-- Sleeping2 -->
+<g id="node6" class="node">
+<title>Sleeping2</title>
+<polygon fill="none" stroke="black" points="131.74,-36 66.74,-36 66.74,0 131.74,0 131.74,-36"/>
+<text text-anchor="middle" x="99.24" y="-13.8" font-family="Times,serif" font-size="14.00">Sleeping</text>
+</g>
+<!-- Studying2 -->
+<g id="node9" class="node">
+<title>Studying2</title>
+<polygon fill="none" stroke="black" points="131.52,-448.4 64.96,-448.4 64.96,-412.4 131.52,-412.4 131.52,-448.4"/>
+<text text-anchor="middle" x="98.24" y="-426.2" font-family="Times,serif" font-size="14.00">Studying</text>
+</g>
+<!-- Eating2&#45;&gt;Studying2 -->
+<g id="edge8" class="edge">
+<title>Eating2-&gt;Studying2</title>
+<path fill="none" stroke="black" d="M98.24,-485.21C98.24,-477.63 98.24,-468.5 98.24,-459.94"/>
+<polygon fill="black" stroke="black" points="101.74,-459.94 98.24,-449.94 94.74,-459.94 101.74,-459.94"/>
+</g>
+<!-- Going2 -->
+<g id="node8" class="node">
+<title>Going2</title>
+<polygon fill="none" stroke="black" points="94.24,-359.6 40.24,-359.6 40.24,-323.6 94.24,-323.6 94.24,-359.6"/>
+<text text-anchor="middle" x="67.24" y="-337.4" font-family="Times,serif" font-size="14.00">Going</text>
+</g>
+<!-- Eating3 -->
+<g id="node10" class="node">
+<title>Eating3</title>
+<polygon fill="none" stroke="black" points="126.24,-286.6 72.24,-286.6 72.24,-250.6 126.24,-250.6 126.24,-286.6"/>
+<text text-anchor="middle" x="99.24" y="-264.4" font-family="Times,serif" font-size="14.00">Eating</text>
+</g>
+<!-- Going2&#45;&gt;Eating3 -->
+<g id="edge11" class="edge">
+<title>Going2-&gt;Eating3</title>
+<path fill="none" stroke="black" d="M74.99,-323.41C78.56,-315.48 82.9,-305.86 86.91,-296.96"/>
+<polygon fill="black" stroke="black" points="90.02,-298.56 90.94,-288.01 83.64,-295.69 90.02,-298.56"/>
+</g>
+<!-- Studying2&#45;&gt;Going2 -->
+<g id="edge9" class="edge">
+<title>Studying2-&gt;Going2</title>
+<path fill="none" stroke="black" d="M78.83,-412.2C74.24,-406.99 69.96,-400.9 67.49,-394.4 64.76,-387.23 63.83,-379.08 63.79,-371.41"/>
+<polygon fill="black" stroke="black" points="67.28,-371.62 64.27,-361.46 60.29,-371.28 67.28,-371.62"/>
+<text text-anchor="middle" x="93.11" y="-381.8" font-family="Times,serif" font-size="14.00">weekday</text>
+</g>
+<!-- Sleeping3 -->
+
+<!-- Studying3 -->
+<g id="node11" class="node">
+<title>Studying3</title>
+<polygon fill="none" stroke="black" points="92.52,-197.8 25.96,-197.8 25.96,-161.8 92.52,-161.8 92.52,-197.8"/>
+<text text-anchor="middle" x="59.24" y="-175.6" font-family="Times,serif" font-size="14.00">Studying</text>
+</g><g id="edge10" class="edge">
+<title>Studying2-&gt;Eating3</title>
+<path fill="none" stroke="black" d="M109.91,-411.94C112.9,-406.55 115.71,-400.43 117.24,-394.4 125.56,-361.65 117.3,-323.02 109.43,-297.51"/>
+<polygon fill="black" stroke="black" points="112.82,-296.62 106.38,-288.22 106.17,-298.81 112.82,-296.62"/>
+<text text-anchor="middle" x="146.11" y="-337.4" font-family="Times,serif" font-size="14.00">weekend</text>
+</g>
+<!-- Eating3&#45;&gt;Studying3 -->
+<g id="edge12" class="edge">
+<title>Eating3-&gt;Studying3</title>
+<path fill="none" stroke="black" d="M83.2,-250.46C78.85,-245.07 74.52,-238.88 71.47,-232.6 67.99,-225.42 65.47,-217.19 63.65,-209.44"/>
+<polygon fill="black" stroke="black" points="67.1,-208.84 61.7,-199.72 60.24,-210.21 67.1,-208.84"/>
+<text text-anchor="middle" x="93.62" y="-220" font-family="Times,serif" font-size="14.00">random</text>
+</g>
+<!-- Resting3 -->
+<g id="node14" class="node">
+<title>Resting3</title>
+<polygon fill="none" stroke="black" points="169.63,-197.8 110.85,-197.8 110.85,-161.8 169.63,-161.8 169.63,-197.8"/>
+<text text-anchor="middle" x="140.24" y="-175.6" font-family="Times,serif" font-size="14.00">Resting</text>
+</g>
+<!-- Eating3&#45;&gt;Resting3 -->
+<g id="edge13" class="edge">
+<title>Eating3-&gt;Resting3</title>
+<path fill="none" stroke="black" d="M107.34,-250.45C112.97,-238.52 120.61,-222.35 127.11,-208.6"/>
+<polygon fill="black" stroke="black" points="130.26,-210.12 131.37,-199.58 123.93,-207.13 130.26,-210.12"/>
+<text text-anchor="middle" x="145.62" y="-220" font-family="Times,serif" font-size="14.00">random</text>
+</g>
+<!-- Going3 -->
+
+<!-- Resting4 -->
+
+<!-- Studying3&#45;&gt;Resting4 -->
+<g id="edge14" class="edge">
+<title>Studying3-&gt;Resting4</title>
+<path fill="none" stroke="black" d="M58.51,-161.38C58.91,-150.5 61.1,-136.77 68.47,-127 70.81,-123.9 84.87,-116.8 99.93,-109.8"/>
+<polygon fill="black" stroke="black" points="101.37,-112.99 109.01,-105.65 98.46,-106.62 101.37,-112.99"/>
+<text text-anchor="middle" x="90.62" y="-131.2" font-family="Times,serif" font-size="14.00">random</text>
+</g><g id="edge15" class="edge">
+<title>Studying3-&gt;Studying4</title>
+<path fill="none" stroke="black" d="M25.59,-165.56C16.46,-160.24 7.67,-153.1 2.47,-143.8 -4.38,-131.52 4.03,-120.57 16.31,-111.94"/>
+<polygon fill="black" stroke="black" points="17.82,-115.12 24.47,-106.87 14.13,-109.17 17.82,-115.12"/>
+<text text-anchor="middle" x="24.62" y="-131.2" font-family="Times,serif" font-size="14.00">random</text>
+</g>
+<!-- Sleeping4 -->
+
+<!-- Eating4 -->
+
+<!-- Going4 -->
+
+<g id="node12" class="node">
+<title>Studying4</title>
+<polygon fill="none" stroke="black" points="92.52,-109 25.96,-109 25.96,-73 92.52,-73 92.52,-109"/>
+<text text-anchor="middle" x="59.24" y="-86.8" font-family="Times,serif" font-size="14.00">Studying</text>
+</g><!-- Resting4Studying4 -->
+<g id="edge17" class="edge">
+<title>Resting3-&gt;Studying4</title>
+<path fill="none" stroke="black" d="M133.13,-161.64C128.1,-150.87 120.6,-137.16 111.24,-127 107.65,-123.1 103.54,-119.42 99.25,-116.02"/>
+<polygon fill="black" stroke="black" points="101.63,-113.42 91.49,-110.33 97.49,-119.06 101.63,-113.42"/>
+<text text-anchor="middle" x="144.62" y="-131.2" font-family="Times,serif" font-size="14.00">random</text>
+</g><g id="node13" class="node">
+<title>Resting4</title>
+<polygon fill="none" stroke="black" points="169.63,-109 110.85,-109 110.85,-73 169.63,-73 169.63,-109"/>
+<text text-anchor="middle" x="140.24" y="-86.8" font-family="Times,serif" font-size="14.00">Resting</text>
+</g>
+<g id="edge18" class="edge">
+<title>Resting4-&gt;Sleeping2</title>
+<path fill="none" stroke="black" d="M130.31,-72.81C125.63,-64.7 119.93,-54.84 114.7,-45.78"/>
+<polygon fill="black" stroke="black" points="117.86,-44.25 109.83,-37.34 111.8,-47.75 117.86,-44.25"/>
+</g><g id="edge19" class="edge">
+<title>Studying4-&gt;Sleeping2</title>
+<path fill="none" stroke="black" d="M68.92,-72.81C73.49,-64.7 79.05,-54.84 84.15,-45.78"/>
+<polygon fill="black" stroke="black" points="87.04,-47.78 88.9,-37.35 80.94,-44.34 87.04,-47.78"/>
+</g><!-- Resting3&#45;&gt;Resting4 -->
+<!-- Resting3&#45;&gt;Resting4 -->
+<g id="edge16" class="edge">
+<title>Resting3-&gt;Resting4</title>
+<path fill="none" stroke="black" d="M164.31,-161.5C169.54,-156.44 174.37,-150.46 177.24,-143.8 180.19,-136.94 180.19,-133.86 177.24,-127 175.85,-123.77 174,-120.71 171.87,-117.83"/>
+<polygon fill="black" stroke="black" points="174.56,-115.59 165.31,-110.43 169.33,-120.24 174.56,-115.59"/>
+<text text-anchor="middle" x="201.62" y="-131.2" font-family="Times,serif" font-size="14.00">random</text>
+</g>
+
+</g>
+</svg>
